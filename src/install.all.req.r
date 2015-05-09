@@ -24,6 +24,7 @@ install.all.req  <- function(){
 ,"fortunes"
 ,"fpc" #pamk
 ,"ggm" #pcor
+,"ggplot2"
 ,"glmnet"
 ,"Hmisc" #rcorr
 ,"igraph"
@@ -32,6 +33,7 @@ install.all.req  <- function(){
 ,"knitr"
 ,"lattice" #splom
 ,"lme4"
+,"lubridate"
 ,"manipulate"
 ,"maptools"
 ,"MASS"
@@ -40,6 +42,7 @@ install.all.req  <- function(){
 ,"moments" #kurtosis
 ,"NbClust" #NbClust
 ,"nnet"
+,"nycflights13"
 ,"PBSmapping"
 ,"plyr"
 ,"polycor" #polychoric
@@ -47,10 +50,14 @@ install.all.req  <- function(){
 ,"quantmod" #chartSeries Cl Op Hi Lo ClCl Ad getSymbols
 ,"randomForest"
 ,"rattle"
+,"reshape2"
 ,"RCurl" #getURL
+,"rmarkdown"
 ,"roxygen2"
-,"rugarch"
 ,"rugarch" #ugarchspec
+,"shiny"
+,"stringr"
+,"tidyr"
 ,"tm" #DocumentTermMatrix tm_map removeSparseTerms
 ,"TraMineR" #seqdef
 ,"tree"
