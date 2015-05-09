@@ -5,3 +5,8 @@ test.package  <- function(packageName){
   }
 }​
 
+
+removeNullFromList  <- function(lst){
+  lst[sapply(lst, is.null)] <- NULL
+}
+
