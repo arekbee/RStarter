@@ -11,6 +11,8 @@ install.all.req  <- function(){
 ,"car" # scatterplotMatrix
 ,"caret"
 ,"chemometrics"
+,"class"  #knn
+,"clue" #cl_agreement(
 ,"cluster"
 ,"corrgram" #corrgram
 ,"devtools"
@@ -27,9 +29,10 @@ install.all.req  <- function(){
 ,"ggplot2"
 ,"glmnet"
 ,"Hmisc" #rcorr
+,"httr"
 ,"igraph"
 ,"ISLR"
-,"kernlab"
+,"kernlab" #ksvm
 ,"knitr"
 ,"lattice" #splom
 ,"lme4"
@@ -43,6 +46,7 @@ install.all.req  <- function(){
 ,"NbClust" #NbClust
 ,"nnet"
 ,"nycflights13"
+,"openNLP" #tagPOS  findAssocs
 ,"PBSmapping"
 ,"plyr"
 ,"polycor" #polychoric
@@ -51,18 +55,26 @@ install.all.req  <- function(){
 ,"randomForest"
 ,"rattle"
 ,"reshape2"
-,"RCurl" #getURL
+,"RcmdrPlugin.temis"
+,"RCurl" #getURL getPageURLs getForm
+,"RJSONIO"
 ,"rmarkdown"
+,"RODBC"
+,"ROracle" 
 ,"roxygen2"
+,"RSQLite"
+,"RTextTools"  # create_container
 ,"rugarch" #ugarchspec
+,"RWeka"  #NGramTokenizer
 ,"shiny"
 ,"stringr"
 ,"tidyr"
-,"tm" #DocumentTermMatrix tm_map removeSparseTerms
+,"tm" #DocumentTermMatrix tm_map removeSparseTerms Corpus VectorSource   TermDocumentMatrix
 ,"TraMineR" #seqdef
 ,"tree"
 ,"tseries" #po.test
 ,"TTR" #RSI MACD williamsAD
+,"twitteR" #twitteR
 ,"urca" #cumsum ur.df
 ,"vars" #VAR VARselect
 ,"vegan", #cascadeKM
