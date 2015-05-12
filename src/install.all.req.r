@@ -78,6 +78,7 @@ install.all.req  <- function(){
 ,"urca" #cumsum ur.df
 ,"vars" #VAR VARselect
 ,"vegan", #cascadeKM
+,"wordcloud" #wordcloud
 ,"xlsx" #read.xlsx
 ,"XML"
 ,"zoo"
