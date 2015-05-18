@@ -17,6 +17,7 @@ install.all.req  <- function(){
 ,"corrgram" #corrgram
 ,"devtools"
 ,"DMwR"
+,"doParallel" #registerDoParallel
 ,"dplyr" #%>%
 ,"e1071"
 ,"ff" # read.table.ffdf
