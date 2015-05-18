@@ -57,6 +57,7 @@ install.all.req  <- function(){
 ,"rattle"
 ,"reshape2"
 ,"RcmdrPlugin.temis"
+,"Rcpp" 
 ,"RCurl" #getURL getPageURLs getForm
 ,"RJSONIO"
 ,"rmarkdown"
