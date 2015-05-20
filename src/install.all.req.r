@@ -31,7 +31,7 @@ install.all.req  <- function(){
 ,"glmnet"
 ,"Hmisc" #rcorr
 ,"httr"
-,"igraph"
+,"igraph" #graph graph.tree print.igraph graph.data.frame E V vcount ecount as.undirected average.path.lenght farthest.nodes largest.cliques degree
 ,"ISLR"
 ,"kernlab" #ksvm
 ,"knitr"
@@ -59,17 +59,19 @@ install.all.req  <- function(){
 ,"RcmdrPlugin.temis"
 ,"Rcpp" 
 ,"RCurl" #getURL getPageURLs getForm
+,"rgl" #rglplot
 ,"RJSONIO"
 ,"rmarkdown"
 ,"RODBC"
 ,"ROracle" 
 ,"roxygen2"
 ,"RSQLite"
-,"RTextTools"  # create_container
+,"RTextTools"  # create_container train_model classify_model create_analytics
 ,"rugarch" #ugarchspec
 ,"RWeka"  #NGramTokenizer
 ,"shiny"
 ,"stringr"
+,"tcltk" #tkplot
 ,"tidyr"
 ,"tm" #DocumentTermMatrix tm_map removeSparseTerms Corpus VectorSource   TermDocumentMatrix
 ,"TraMineR" #seqdef
