@@ -15,7 +15,8 @@ install.all.req  <- function(){
 ,"clue" #cl_agreement(
 ,"cluster"
 ,"corrgram" #corrgram
-,"devtools"
+,"d3Network" #d3SimpleNetwork
+,"devtools" #install_github
 ,"DMwR"
 ,"doParallel" #registerDoParallel
 ,"dplyr" #%>%
@@ -28,6 +29,7 @@ install.all.req  <- function(){
 ,"fpc" #pamk
 ,"ggm" #pcor
 ,"ggplot2"
+,"ggvis"
 ,"glmnet"
 ,"Hmisc" #rcorr
 ,"httr"
@@ -55,6 +57,7 @@ install.all.req  <- function(){
 ,"quantmod" #chartSeries Cl Op Hi Lo ClCl Ad getSymbols
 ,"randomForest"
 ,"rattle"
+,"rCharts" #rPlot
 ,"reshape2"
 ,"RcmdrPlugin.temis"
 ,"Rcpp" 
